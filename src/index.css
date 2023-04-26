@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face{
+    font-Family:netflix;
+    src:url(./assets/fonts/NetflixSans-Bold.otf);
+  }
+@font-face{
+    font-Family:netflixm;
+    src:url(./assets/fonts/NetflixSans-Medium.otf);
+  }
+@layer utilities{
+  .bgs{
+    background-image: url('./assets/imgs/bg.jpg');
+    
+    @apply bg-cover
+  }
+  .shadows{
+    box-shadow:inset -5px -3px 27px 12px rgba(0,0,0,0.23);
+  }
+  .effect-blur{
+    background:rgba(0,0,0,0.2);
+    @apply backdrop-blur-sm
+  }
+
+}
+.add-black-effect::before{
+  content:"";
+  position: absolute;
+  height:100%;
+  width: 100%;
+  background:rgba(0,0,0,0.605);
+}
+.fonts{
+  font-Family:netflix;
+}
+.fonts2{
+  font-Family:netflixm;
+}
