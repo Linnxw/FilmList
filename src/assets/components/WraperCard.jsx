@@ -2,8 +2,6 @@ import {IoIosArrowForward} from "react-icons/io";
 import axios from "axios"
 import React,{useState,useEffect} from "react"
 import CardFilm from "./CardFilm"
-import Load from "./Load"
-
 export default function WraperCard({param,event}){
 const [film,setFilm]=useState([])
 const [loading,setLoading]=useState(true)
@@ -38,7 +36,7 @@ const getFilm=async()=>{
       </div>
       <div className="flex h-54 md:h-72 items-center overflow-hidden">
         {
-        loading ? <Load/>
+        loading ? <p>Loading...</p>
           :
           film.map((film,index)=>{
           if(window.innerWidth < 900){
