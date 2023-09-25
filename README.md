@@ -4,8 +4,35 @@
 ## Apa itu FilmList
  FilmList adalah sebuah Website pencarian Film dengan UI yg simpel sehingga memudahkan pengguna saat mengakses FilmLis
 
-## Tech stack
+## Teknologi yg digunakan 
  - React js
  - tailwind
 
-demo : https://filmlistlinnxw.netlify.app/
+## demo 
+```
+https://filmlistlinnxw.netlify.app/
+```
+> [!NOTE]
+> Ketika ingin masuk ke menu pencarian film anda memerlukan token/key,anda dapat memasukkan key berikut **root**
+
+## Instalation
+### 1. clone repository ini dengan perintah berikut 
+```
+git clone https://github.com/Linnxw/topup-games.git
+```
+### 2. Masuk ke direktori projek 
+```
+cd topup-games
+```
+### 3. Install dependency yg dibutuhkan untuk menjalankan projek
+```
+npm install
+```
+### 4. Jalankan server
+```
+npm start
+```
+### 5. Buka browser dan masuk ke url berikut
+```
+http://localhost:5173
+```
