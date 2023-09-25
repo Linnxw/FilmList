@@ -12,7 +12,7 @@
 ```
 https://filmlistlinnxw.netlify.app/
 ```
-> [!WARN]
+> [!IMPORTANT]
 > Ketika ingin masuk ke menu pencarian film anda memerlukan token/key,anda dapat memasukkan key berikut **root**
 
 ## Instalation
